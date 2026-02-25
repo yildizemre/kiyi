@@ -8,7 +8,7 @@ interface LoginProps {
 
 export default function Login({ onLogin }: LoginProps) {
   const [isLoading, setIsLoading] = useState(false);
-  const [email] = useState('kiyi@orbistech.com.tr');
+  const [email] = useState('kiyi@orbisoft.com.tr');
   const [password] = useState('kiyi123');
 
   const handleLogin = (e: React.FormEvent) => {
@@ -66,7 +66,9 @@ export default function Login({ onLogin }: LoginProps) {
                 alt="Kıyı Marina"
                 className="h-20 w-auto object-contain mb-3"
               />
-              <p className="text-white/70 text-center text-sm mt-1">AI Powered Management Suite</p>
+              <p className="text-white/70 text-center text-sm mt-1">
+                Yapay zekâ destekli marina yönetim paketi
+              </p>
             </div>
           </div>
 
@@ -121,9 +123,9 @@ export default function Login({ onLogin }: LoginProps) {
             <div className="pt-4 border-t border-slate-700">
               <div className="flex items-center justify-center space-x-2 text-sm">
                 <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                <span className="text-slate-400">Sistem Aktif</span>
+                <span className="text-slate-400">Sistem aktif</span>
                 <span className="text-slate-600">•</span>
-                <span className="text-slate-400">AI Çevrimiçi</span>
+                <span className="text-slate-400">Yapay zekâ çevrimiçi</span>
               </div>
             </div>
           </form>
@@ -136,10 +138,10 @@ export default function Login({ onLogin }: LoginProps) {
           className="mt-6 text-center"
         >
           <p className="text-slate-400 text-sm">
-            © 2024 Orbistech. Tüm hakları saklıdır.
+            © 2024 Orbisoft. Tüm hakları saklıdır.
           </p>
           <p className="text-slate-500 text-xs mt-1">
-            Yüz Tanıma • Personel Takip • Teknik Analiz • Güvenlik AI
+            Yüz tanıma • Personel takibi • Teknik analiz • Güvenlik yapay zekâsı
           </p>
         </motion.div>
       </motion.div>

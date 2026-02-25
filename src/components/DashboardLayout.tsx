@@ -69,8 +69,8 @@ export default function DashboardLayout() {
           <Outlet />
         </main>
         <footer className="shrink-0 border-t border-slate-800 bg-slate-900/50 px-4 py-3 flex flex-col sm:flex-row items-center justify-between gap-2 text-slate-500 text-sm">
-          <span>Orbistech – Kıyı Marina AI Yönetim Sistemi</span>
-          <span className="text-slate-600 font-medium">Demo v1.0</span>
+          <span>Orbisoft – Kıyı Marina Yapay Zekâ Yönetim Sistemi</span>
+          <span className="text-slate-600 font-medium">Demo Sürüm 1.0</span>
         </footer>
       </div>
     </div>

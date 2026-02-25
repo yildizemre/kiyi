@@ -74,7 +74,9 @@ export default function Analytics() {
           <BarChart3 className="w-8 h-8 mr-3 text-cyan-400" />
           Ticari Analitik & Raporlar
         </h1>
-        <p className="text-slate-400">AI destekli insan sayımı, trafik analizi ve gelir raporlama sistemi</p>
+        <p className="text-slate-400">
+          Yapay zekâ destekli insan sayımı, trafik analizi ve gelir raporlama sistemi
+        </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">

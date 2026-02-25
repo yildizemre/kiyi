@@ -55,7 +55,7 @@ export default function Technical() {
           <Settings className="w-8 h-8 mr-3 text-cyan-400" />
           Teknik & Peyzaj Bakım
         </h1>
-        <p className="text-slate-400">Altyapı ve tesislerin AI destekli takip sistemi</p>
+        <p className="text-slate-400">Altyapı ve tesislerin yapay zekâ destekli takip sistemi</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">

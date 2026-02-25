@@ -85,9 +85,9 @@ export default function AISimulatorModal({ isOpen, onClose }: AISimulatorModalPr
               <div>
                 <h2 className="text-2xl font-bold text-white flex items-center">
                   <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse mr-3"></div>
-                  CANLI AI ANALİZ SİMÜLATÖRÜ
+                  CANLI YAPAY ZEKÂ ANALİZ SİMÜLATÖRÜ
                 </h2>
-                <p className="text-slate-400 mt-1">Gerçek zamanlı AI görüntü analizi ve algılama sistemi</p>
+                <p className="text-slate-400 mt-1">Gerçek zamanlı yapay zekâ görüntü analizi ve algılama sistemi</p>
               </div>
               <button
                 onClick={onClose}
@@ -138,7 +138,7 @@ export default function AISimulatorModal({ isOpen, onClose }: AISimulatorModalPr
 
                       <div className="absolute top-2 right-2 bg-red-600 text-white px-2 py-1 rounded text-xs font-bold flex items-center">
                         <div className="w-1.5 h-1.5 bg-white rounded-full animate-pulse mr-1"></div>
-                        LIVE
+                        CANLI
                       </div>
                     </div>
 

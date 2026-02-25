@@ -138,7 +138,7 @@ export default function Login({ onLogin }: LoginProps) {
           className="mt-6 text-center"
         >
           <p className="text-slate-400 text-sm">
-            © 2024 Orbisoft. Tüm hakları saklıdır.
+            © 2026 Orbisoft. Tüm hakları saklıdır.
           </p>
           <p className="text-slate-500 text-xs mt-1">
             Yüz tanıma • Personel takibi • Teknik analiz • Güvenlik yapay zekâsı

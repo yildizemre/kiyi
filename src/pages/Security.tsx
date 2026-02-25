@@ -43,7 +43,9 @@ export default function Security() {
           <ShieldCheck className="w-8 h-8 mr-3 text-cyan-400" />
           Güvenlik & Yüz Tanıma
         </h1>
-        <p className="text-slate-400">AI destekli yüz tanıma sistemi - VIP/Kara Liste/Personel algılama</p>
+        <p className="text-slate-400">
+          Yapay zekâ destekli yüz tanıma sistemi - VIP/Kara Liste/Personel algılama
+        </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-6">

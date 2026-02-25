@@ -154,7 +154,7 @@ export default function Dashboard() {
         <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-800 rounded-xl p-6">
           <h2 className="text-xl font-bold text-white mb-4 flex items-center">
             <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse mr-2"></div>
-            LIVE STATUS
+            CANLI DURUM
           </h2>
           <div className="space-y-3 max-h-96 overflow-y-auto">
             <AnimatePresence>
